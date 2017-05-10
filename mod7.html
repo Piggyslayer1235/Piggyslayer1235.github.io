@@ -1,125 +1,21 @@
 <html>
   <head>
-    <link rel='stylesheet' type='text/css' href='style/mod7.css'>
+    <link rel='stylesheet' type='text/css' href='style/mod2.css'>
     <link rel="shortcut icon" type="image/png" href="images/eddies.png"/>
-    <title>Module 7</title>
+    <title>moduel 7</title>
   </head>
+  <h1> FreeCodeCamp </h1>
+  <img src='images/kitty.jpg' width='256px'>
   <body>
-    Last login: Wed May 10 07:36:41 on ttys000
-Noah-Hamilton:~ Piggyslayer1235$ scheme48
-Welcome to Scheme 48 1.9.2 (made by Piggyslayer1235 on 2017-05-10)
-See http://s48.org/ for more information.
-Please report bugs to scheme-48-bugs@s48.org.
-Get more information at http://www.s48.org/.
-Type ,? (comma question-mark) for help.
-> (define (square x) (* x x))
-; no values returned
-> (define (cube y) (* y y))
-; no values returned
-> (square 5)
-25
-> (square cube 5)
-
-assertion-violation: wrong number of arguments [tail-call]
-                     (#{procedure 8513 square} '(#{procedure 8516 cube} 5))
-1> (cube 6)
-36
-1> (cube 1000000000)
-1000000000000000000
-1> (define (Nepu u) (* u u u u u u u u u u u u u u u u u u u u u u u u u u u u))
-; no values returned
-1> (Nepu 4)
-72057594037927936
-1> Nepu
-#{procedure 8527 nepu}
-1> (define (Neppy i) (* i i i i i)
-)
-; no values returned
-1> Neppy
-#{procedure 8534 neppy}
-1> /   
-#{procedure 125 /}
-1> ,?
-This is Scheme 48.  You are interacting with the command processor.
-A command is either a Scheme form to evaluate or one of the following:
-
- ,? [<command-name>]             ,open <struct> ...
- ,bound? <name>                  ,pop 
- ,build <exp> <filename> <option> ... ,preview 
- ,collect                        ,proceed <exp>
- ,condition                      ,push 
- ,config [<command>]             ,q 
- ,config-package-is <struct>     ,reload-package <struct>
- ,d                              ,reset [<number>]
- ,debug                          ,resume [<number>]
- ,dis [<exp>]                    ,run <exp>
- ,dump <filename>                ,set <setting> [<on-or-off-or-literal-or-?>]
- ,exec [<command>]               ,set-reader <reader>
- ,exit [<status>]                ,show-default-package <filename>
- ,exit-when-done [<status>]      ,show-interface <struct> ...
- ,expand [<form>]                ,show-known-packages 
- ,flush [<kind> ...]             ,structure <name> <interface>
- ,for-syntax [<command>]         ,template 
- ,forget <filename>              ,threads 
- ,go <exp>                       ,time <command>
- ,help [<command-name>]          ,trace <name> ...
- ,in <struct> [<command>]        ,translate <from> <to>
- ,inspect [<exp>]                ,u 
- ,keep [<kind> ...]              ,undefine <name>
- ,load <filename> ...            ,unset <setting>
- ,load-package <struct>          ,untrace <name> ...
- ,load-script <filename> ...     ,user [<command>]
- ,menu                           ,user-package-is [<struct>]
- ,new-package [<struct> ...]     ,where [<procedure>]
-
-Square brackets [...] indicate optional arguments.
-
-The following settings are set by the `set' and `unset' commands:
-
- ask-before-loading       (off, will not ask before loading modules)
- batch                    (off, will prompt and will not exit on errors)
- break-on-warnings        (off, will not enter breakpoint on warnings)
- condition-writing-depth  (5, maximum writing depth for conditions)
- condition-writing-length (6, maximum writing length for conditions)
- inline-values            (off, will not compile calls in line)
- inspector-menu-limit     (15, maximum number of menu entries in inspector)
- inspector-writing-depth  (3, maximum writing depth in inspector)
- inspector-writing-length (5, maximum writing length in inspector)
- levels                   (on, will push command level on errors)
- load-noisily             (off, will not notify when loading modules and files)
- trace-writing-depth      (8, writing depth for traces)
-
-The expression ## evaluates to the last value displayed by the command
-processor.
-1> (* (square 3) (Nepu 8))
-174085318024506601157689344
-1> nepu
-#{procedure 8527 nepu}
-1> neppu
-
-assertion-violation: undefined variable [global]
-                     neppu
-                     user
-2> (list Nepu Neppy cube square)
-(#{procedure 8527 nepu} #{procedure 8534 neppy} #{procedure 8516 cube} #{procedure 8513 square})
-2> (sort (list 4 5 6)           
-)
-
-assertion-violation: undefined variable [global]
-                     sort
-                     user
-3> (sort (list Nepu Neppy cube square))
-
-assertion-violation: undefined variable [global]
-                     sort
-                     user
-4> (sort (list 4 6 5))
-
-assertion-violation: undefined variable [global]
-                     sort
-                     user
-5>  
-
-    <script src='js/mod7.js'></script>
+    <p>
+      FreeCodeCamp.com is a FREE and I do mean FREE site and place where you can learn codding for FREE.  Well it's also anoying
+      as hell.  So many tabs[1] that you have to open.  In the video I show you I small tinsy winsy look into FreeCodeCamp.com
+      and what you can do at the site.
+    </p>
+    <video width="341.5" height="384" controls>
+      <source src="m4v/cats.m4v" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <script src='js/mod2.js'></script>
   </body>
 </html>
